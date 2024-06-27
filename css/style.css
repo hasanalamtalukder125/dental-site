@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+.top_heaader{
+    padding: 20px 0;}
+.header_info{
+
+display: flex;
+
+justify-content: end;
+
+line-height: 0;
+}
+
+.info_iteam{
+
+margin-left: 20px;
+
+display: flex;
+
+align-items: center;
+}
+.icon{
+    font-size: 24px;
+    margin-right: 10px;
+    color: #f69165;}
+.info{
+    
+}
+.info h4{
+    
+font-size: 18px;
+}
+.info p{
+    
+font-size: 12px;
+}
+
+.main_header{
+
+background-color: #00cce1;
+}
+
+
+.btn-secondaryyy{
+    padding: 0;
+    padding: 12px 25px;
+    border-radius: 0;
+    background-color: #f69165;
+    color: #fff !important;
+    border-radius: 0;
+    text-transform: uppercase;
+    clip-path: polygon(10% 0, 100% 0%, 87% 100%, 0% 100%);
+    }
+
+    .btn-secondaryyy i{
+    margin-right: 6px;
+    color: aliceblue;
+        }
+    
+.nav-item{
+
+
+}
+.nav-item a{
+
+    color: #fff;
+}
+
+.nav-item a:hover{
+
+    color: #fff;
+}
+.nav-link {
+    
+}
+nav.navbar.navbar-expand-lg {
+    padding: 0;
+}
+
+.banner_section{
+    background-image: url(/images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner_section h1{
+
+background-color: #f69165;
+
+font-size: 44px;
+
+padding: 10px 20px;
+
+text-transform: uppercase;
+
+display: inline-block;
+
+color: #fff;
+
+margin-top: 10px;
+}
+.banner_section h2{
+
+background-color: #00cce1;
+
+font-size: 30px;
+
+padding: 10px 14px;
+
+text-transform: uppercase;
+
+display: inline-block;
+
+color: #fff;
+}
+.banner_section p{
+
+font-size: 15px;
+
+color: #000;
+
+margin-bottom: 25px;
+}
+.btn.btn_learmore{
+    padding: 12px 18px;
+    background: #f69165;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn.btn_learmore:hover{
+    background: #00cce1;
+    color: #f69165;
+}
+.btn.btn_booknow{
+
+    padding: 12px 18px;
+    background: #00cce1;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn.btn_booknow:hover{
+    background: #f69165;
+    color: #00cce1;
+}
+
+
+.heighet{
+    min-height: 80vh;
+    align-items: center;
+}
+.banner_img{
+    
+position: absolute;
+    
+bottom: 0;
+    
+width: 40%;
+    
+right: 0%;
+}
+.new_images{
+width: 50%;
+}
+
+.banner_carousel{
+
+}
+.banner_carousel .owl-dots{
+text-align: center;
+}
+.banner_carousel .owl-dots .owl-dot{
+    margin: 3px;
+
+}
+.banner_carousel .owl-dots .owl-dot span{
+    
+    display: block;
+        
+    background: #f69165;
+        
+    height: 10px;
+        
+    width: 10px;
+        
+    border-radius: 50%;
+    }
+    
+    .banner_carousel .owl-dots .active span{
+        background-color: #00cce1;
+    }
